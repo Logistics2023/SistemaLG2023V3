@@ -232,7 +232,7 @@ const PDFView = () => {
 
                         </View>
 
-                        <Text style={styles.subtitle}>DESCRIPCION DE SERVICIO</Text>
+                        <Text style={styles.subtitle}>DESCRIPCIÓN DE SERVICIO</Text>
 
 
                         <View style={styles.items}>
@@ -366,7 +366,7 @@ const PDFView = () => {
                                 <Text style={styles.value}>{userDB.bank && userDB.bank.tipoDeCuenta && userDB.bank.tipoDeCuenta}</Text>
                             </View>
                             <View style={styles.viewKeyValueTwo}>
-                                <Text style={styles.key}>NOMBREA</Text>
+                                <Text style={styles.key}>NOMBRE</Text>
                                 <Text style={styles.value}>{userDB.bank && userDB.bank.nombre2 && userDB.bank.nombre2}</Text>
                             </View>
                             <View style={styles.viewKeyValueTwo}>
